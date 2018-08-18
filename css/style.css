@@ -1,0 +1,117 @@
+body{
+    font-family: 'Bangers', cursive;
+    font-size: 12px;
+   
+ 
+    
+}/*
+header{
+    
+    /*background-image: url("hangmanSheet1.jpg");
+                
+}*/
+.leftColumn{
+    background-color: lightblue;
+    
+   background-image: url("../images/blacklodge.jpg");
+}
+.rightColumn{
+    background-color: lightblue;
+    background-image: url("../images/blacklodge.jpg");
+    /*
+    background-image: url("hangmanSheet2.jpg");
+    */
+}
+.hangingAreaBox{
+    width:100%;
+    height:500px;
+
+}
+.initialState{
+    position: absolute;
+    border: 12px;
+    border-color: crimson;
+    height: 250px;
+    width: 100%;
+    z-index: 12;
+}
+.headImpDiv{
+    position: relative;
+    border: 12px;
+    border-color: crimson;
+    height: 150px;
+    width: 200px;
+    z-index: 11;
+}
+.bodyImpDiv{
+    position: relative;
+    border: 12px;
+    border-color: crimson;
+    height: 150px;
+    width: 200px;
+    z-index: 10;
+}
+.armImpDiv{
+    position: relative;
+    border: 12px;
+    border-color: crimson;
+    height: 150px;
+    width: 200px;
+    z-index: 9;
+    top: 100%;
+}
+.arm1ImgDiv{
+position: absolute;
+border: 12px;
+border-color: crimson;
+height: 150px;
+width: 200px;
+z-index: 8;
+}
+.arm2ImgDiv{
+    position: absolute;
+    border: 12px;
+    border-color: crimson;
+    height: 150px;
+    width: 200px;
+    z-index: 7;
+}
+.leg1ImgDiv{
+    position: absolute;
+    border-color: crimson;
+    border-bottom-color: black;
+   
+    height: 150px;
+    width: 200px;
+    z-index: 6;
+}
+.leg1ImgDiv{
+    position: absolute;
+    border: 12px;
+    border-color: crimson;
+    height: 150px;
+    width: 200px;
+    z-index: 5;
+    
+}
+.spacerDiv{
+    height: 10px;
+    width: 100%;
+    background-color: black;
+   
+}
+
+footer{
+
+    height: 30px;
+    width:100%;
+
+    margin-top: 1%;
+    text-align: center;
+    /*background-image: url("hangmanSheet1.jpg");
+    */
+}
+h4{
+    font-size: 12px;
+
+}

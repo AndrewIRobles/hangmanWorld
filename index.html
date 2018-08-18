@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--link rel="stylesheet" type="text/css" href="cf.css"-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./javascript/hangman.js"></script>
+
+    <title>Hangman!</title>
+  </head>
+  <header class="continer-fluid">
+        <div class="row">
+            <div class="col-xs-1 col-md-3">
+                    
+            </div>
+            <div class="col-xs-1 col-md-9 headerDiv">
+                  <h1 id="letsPlay">Welcome to Twin Peaks</h1>    
+            </div>
+        </div>
+    </header>
+  <body>
+
+
+      <div class="continer-fluid">
+          <div class="row">
+              <aside class="col-sm-2 leftColumn aside1">
+                  <h4></h4>
+                  <div class="selectedLetterBox"></div>
+
+              </aside>
+              <section class="col-sm-8 middleColumn section1">
+                  <h2>
+                      Hangman Bob
+
+                  </h2>
+                  <div class="spacerDiv" id="spacerDiv"></div>
+
+                  <div class="hangingAreaBox">
+                      <!--put images here that I clip from Keynote-->
+                    <div class="row">
+
+                
+                        <div class="col-sm-4 leftHangingAreaBox section1">
+                                <h3></h3>
+                               
+                                <p id="alphaLeft"> /\/\/\/\/\/\</p>
+                                <h2>Bob's Score:</h2>
+                                <p id="Bob"> 0</p>
+                                <h2>Your Score:</h2>
+                                <p id="Laura"> 0</p>
+
+                                 
+                        </div>
+                        <div class="col-sm-6 centerHangingAreaBox">
+                                <div class="initialState">
+                                        <img src="./images/initialState.jpg" id="initialState">
+                              
+                                </div>
+                             
+                        </div>
+                        <div class="col-sm-2 rightHangingAreaBox">
+                            <h3></h3>
+                            <p id="yourWord"></p>
+                        </div>  
+                    </div>
+                 
+                  </div> <!--hanginAeaBox-->
+              </section>
+              <aside class="col-sm-2 rightColumn">
+                <h4></h4>
+                <div class="remaingLetterBox">
+                  <!-- <h3>Remaining Letters</h3>
+                    <p id="alphaLeft"> ?</p>-->
+                </div>
+
+              </aside>
+          </div>
+      </div>
+
+
+
+
+           </div> <!--col PlayingColumn-->
+
+           </div> <!--row justifyt content-me-center-->
+       </div> <!--div class="col-sm-8 centerHangingAreaBox"-->
+
+ </body>
+
+
+
+    <footer class="continer-fluid" >
+       <div class="footerDiv" id="footerDiv">
+           <h2 id="pressAnyKey">Press any key to play</h2>
+           <h3 id="prevWord"></h3>
+       </div>
+     
+     </footer>
+
+</html>
