@@ -223,7 +223,7 @@ checkState: function(whatIsIt){
             document.getElementById("prevWord").innerHTML="Previous Word: "+ this.word;
             
     
-                document.getElementById("initialState").src='images/BOB.png';
+                document.getElementById("initialState").src='images/bob.png';
                  //document.getElementById("pressAnyKey").innerHTML=hangman.word;
              //   alert(this.word);
             
